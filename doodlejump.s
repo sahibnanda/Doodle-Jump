@@ -507,7 +507,6 @@ MOVE_DETECTED:
 	
 	j SHOOT
 	
-
 SHOOT:
 	la $t2, bullet
 	lw $t2, 0($t2)
